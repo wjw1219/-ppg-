@@ -1,0 +1,16 @@
+{
+  "scales": {"3day": {"file": "ppg_3day.csv", "nodes": 61}, "7day": {"file": "ppg_7day.csv", "nodes": 26}, "14day": {"file": "ppg_14day.csv", "nodes": 13}},
+  "outer_folds": 5,
+  "training_seeds": [20260723, 20260724, 20260725],
+  "validation_fraction": 0.2,
+  "max_epochs": 160,
+  "early_stopping_patience": 20,
+  "hidden_dim": 32,
+  "attention_heads": 2,
+  "dropout": 0.25,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 64,
+  "bootstrap_seed": 20260723,
+  "bootstrap_resamples": 2000
+}

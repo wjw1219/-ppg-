@@ -1,0 +1,17 @@
+{
+  "prefix_weeks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26],
+  "comparison_models": ["mlp", "gru", "lstm", "transformer", "temporal_gat", "full_model"],
+  "outer_folds": 5,
+  "training_seeds": [20260723,20260724,20260725],
+  "validation_fraction": 0.2,
+  "max_epochs": 120,
+  "early_stopping_patience": 15,
+  "hidden_dim": 32,
+  "attention_heads": 2,
+  "dropout": 0.25,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 64,
+  "bootstrap_seed": 20260723,
+  "bootstrap_resamples": 2000
+}
